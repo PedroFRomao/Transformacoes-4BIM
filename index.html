@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Transformacoes-4Bim</title>
+	</head>
+
+	<body>
+		<style>
+			canvas {
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				margin: auto;
+			}
+		</style>
+
+		<canvas id="desenho1" width="1000" height="500" style="border: 1px solid #000;"></canvas>
+
+		<script type="text/javascript">
+			let canvas = document.getElementById("desenho1");
+			let ctx = canvas.getContext('2d');
+
+			// Função para desenhar um quadrado verde
+			function desenhar(ctx, dados) {
+				ctx.fillStyle = 'green'; // Define a cor do retângulo como verde
+				ctx.fillRect(dados.posx, dados.posy, dados.larguraFinal, dados.alturaFinal); // Desenha o retângulo
+			}
+
+			// Função principal do Game
+			function game(timestamp) {
+				ctx.clearRect(0, 0, 1000, 500);
+				desenhar(ctx, { posx: 100, posy: 100, larguraFinal: 200, alturaFinal: 200 }); // Define a posição e tamanho do retângulo verde
+				window.requestAnimationFrame(game);
+			}
+			window.requestAnimationFrame(game);
+		</script>
+	</body>
+</html>
