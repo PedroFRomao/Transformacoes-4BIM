@@ -62,16 +62,6 @@ class Transformacoes {
         this.ctx.clearRect(0, 0, canvas.width, canvas.height);
         desenhar();
     }
-
-    aplicarClippingPath() {
-        ctx.beginPath();
-        ctx.arc(quadrado.x, quadrado.y, 230, 0, Math.PI * 2);
-        ctx.closePath();
-        ctx.strokeStyle = "black";
-        ctx.lineWidth = 10;
-        ctx.stroke();
-        ctx.clip();
-    }  
 }
 
 let canvas = document.getElementById("canva");
@@ -101,7 +91,7 @@ window.addEventListener("keydown", (event) => {
     } else if (event.key === "3") {
         transformacoes.aplicarEscala(1.2, 1.2);
     } else if (event.key === "4") {
-        transformacoes.aplicarTransformacaoPersonalizada(1.1, 1, 0, 1.1, 10, 0);
+        transformacoes.aplicarTransform(1.1, 1, 0, 1.1, 10, 0);
     } else if (event.key === "5") {
         ctx.beginPath();
         ctx.arc(quadrado.x, quadrado.y, 230, 0, Math.PI * 2);
