@@ -8,7 +8,8 @@ Ele se move com as setinhas do teclado e possui uma colisão em torno do canva p
 
 ## Estrutura do código
 
-O código é dividido em duas classes principais: `Quadrado` e `Transformações`.
+O código é dividido em duas classes principais: `Quadrado` e `Transformacoes`.
+![image](https://github.com/PedroFRomao/Transformacoes-4BIM/assets/120103357/bf74b947-f1ae-4ba5-9186-29153374338e)
 
 ### Classe Quadrado
 
