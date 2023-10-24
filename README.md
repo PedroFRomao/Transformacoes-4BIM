@@ -40,11 +40,7 @@ O código também inclui a configuração inicial do canvas, a criação de inst
 - Teclas numéricas (1-4) aplicam diferentes transformações.
 - A tecla "5" cria uma máscara circular.
 
-## Como executar
-
-Para executar este código, você precisa de um arquivo HTML que inclua um elemento `<canvas>` com o ID "canva". Certifique-se de que o JavaScript esteja incluído no arquivo HTML. O código é ativado pelo evento de pressionar as teclas no teclado.
-
-<h1>Explicação de cada transformações</h1>
+## Explicação de cada transformações
 
 <h2>Translação:</h2><br>
 A translação é uma transformação geométrica que move um objeto de uma posição para outra no espaço, mantendo sua forma e tamanho. Isso é feito aplicando um vetor de deslocamento a todos os pontos do objeto.<br>
