@@ -95,9 +95,7 @@ Essa técnica é comumente usada em programas de edição de imagem, como o Adob
 
 ## Git
 
+![Screenshot_20231024_080804_Chrome](https://github.com/PedroFRomao/Transformacoes-4BIM/assets/120103357/f31f96a6-8934-430e-8eb0-db795da3ac9e)
 
-https://drive.google.com/file/d/1Ox7WMct5N3Dl-_csVS-p-Ls5ob6wacWb/view?usp=drivesdk
-
-a foto não está carregando no reedme
 
 
