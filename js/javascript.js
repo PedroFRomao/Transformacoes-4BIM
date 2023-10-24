@@ -57,11 +57,21 @@ class Transformacoes {
         desenhar();
     }
 
-    aplicarTransformacaoPersonalizada(a, b, c, d, e, f) {
+    aplicarTransform(a, b, c, d, e, f) {
         this.ctx.transform(a, b, c, d, e, f);
         this.ctx.clearRect(0, 0, canvas.width, canvas.height);
         desenhar();
     }
+
+    aplicarClippingPath(x, y) {
+        ctx.beginPath();
+        ctx.arc(quadrado.x, quadrado.y, 230, 0, Math.PI * 2);
+        ctx.closePath();
+        ctx.strokeStyle = "black";
+        ctx.lineWidth = 10;
+        ctx.stroke();
+        ctx.clip();
+    }  
 }
 
 let canvas = document.getElementById("canva");
