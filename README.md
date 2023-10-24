@@ -1,9 +1,52 @@
 # Transformacoes-4BIM
 <h1>Feito por:Nickolas Garcia e Pedro Ferraz
 <h1>Cena</h1>
-A nossa cena é bem minimalista com somente um quadro verde, porém, com somente ele já conseguimos fazer todas as transformações<br>
-Ele se move com as setinhas do teclado e possui uma colisão em torno do canva para impedir que ele saia cena, e para fazer as transformações só é necessario apertar as teclas 1 ao 5
+Este é um exemplo de código JavaScript que cria um jogo simples usando um quadrado e transformações no elemento `<canvas>`. O jogo permite que o usuário mova o quadrado, aplique transformações nele.A nossa cena é bem minimalista com somente um quadro verde, porém, com somente ele já conseguimos fazer todas as transformações<br>
+Ele se move com as setinhas do teclado e possui uma colisão em torno do canva para impedir que ele sai de cena, e para fazer as transformações só é necessario apertar as teclas 1 ao 5
 
+## Estrutura do código
+
+O código é dividido em duas classes principais: `Quadrado` e `Transformacoes`.
+
+### Classe Quadrado
+
+A classe `Quadrado` representa o quadrado que é desenhado no canvas. Ele possui métodos para desenhar o quadrado e verificar colisões quando o quadrado atinge as bordas do canvas.
+
+- `constructor(ctx, x, y, largura, altura)`: O construtor da classe inicializa o quadrado com o contexto de renderização, coordenadas iniciais, largura e altura.
+
+- `desenhar()`: Desenha o quadrado no canvas, preenchido com uma cor verde. Ele também limpa o canvas a cada quadro para evitar a sobreposição de quadrados.
+
+- `checarColisao()`: Verifica se o quadrado colide com as bordas do canvas e ajusta sua posição, se necessário.
+
+### Classe Transformacoes
+
+A classe `Transformacoes` lida com transformações no canvas, como transladação, rotação, escala e transformação personalizada.
+
+- `constructor(ctx)`: O construtor da classe inicializa a transformação com o contexto de renderização.
+
+- `aplicarTranslacao(dx, dy)`: Aplica uma translação ao canvas.
+
+- `aplicarRotacao(angulo)`: Aplica uma rotação ao canvas.
+
+- `aplicarEscala(sx, sy)`: Aplica uma escala ao canvas.
+
+- `aplicarTransformacaoPersonalizada(a, b, c, d, e, f)`: Aplica uma transformação personalizada ao canvas.
+
+## Uso
+
+O código também inclui a configuração inicial do canvas, a criação de instâncias do quadrado e das transformações, além de um loop de jogo usando `requestAnimationFrame`. O usuário pode interagir com o jogo pressionando teclas do teclado para mover o quadrado e aplicar transformações.
+
+- Teclas de setas (Arrow keys) movem o quadrado.
+- Teclas numéricas (1-4) aplicam diferentes transformações.
+- A tecla "5" cria uma máscara circular.
+
+## Como executar
+
+Para executar este código, você precisa de um arquivo HTML que inclua um elemento `<canvas>` com o ID "canva". Certifique-se de que o JavaScript esteja incluído no arquivo HTML. O código é ativado pelo evento de pressionar as teclas no teclado.
+
+```html
+<canvas id="canva" width="800" height="600"></canvas>
+<script src="seuarquivo.js"></script>
   
 <h1>Explicação de cada transformações</h1>
 
