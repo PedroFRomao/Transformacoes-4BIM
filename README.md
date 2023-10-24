@@ -2,6 +2,9 @@
 <h1>Feito por: Nickolas Garcia e Pedro Ferraz
 <h1>Cena</h1>
 Este é um exemplo de código JavaScript que cria um jogo simples usando um quadrado e transformações no elemento canva.<br> O jogo permite que o usuário mova o quadrado e aplique as transformações nele.<br> A nossa cena é bem minimalista com somente um quadro verde, porém todas as transformações são realizadas através do mesmo.<br>
+  
+  ![image](https://github.com/PedroFRomao/Transformacoes-4BIM/assets/120103357/25165ad8-c9ba-40c3-90f4-5b6f3686ce4b)
+
 Ele se move com as setinhas do teclado e possui uma colisão em torno do canva para impedir que ele sai de cena. Para fazer as transformações só é necessario apertar as teclas dos números de 1 à 5.<br>
 
 
@@ -13,6 +16,8 @@ O código é dividido em duas classes principais: `Quadrado` e `Transformacoes`.
 
 ### Classe Quadrado
 
+![image](https://github.com/PedroFRomao/Transformacoes-4BIM/assets/120103357/5d989a7c-1c71-46f2-b330-f274f1045bdb)
+
 A classe `Quadrado` representa o quadrado que é desenhado no canva.<br> Ele possui dois métodos. Um para desenhar o quadrado e outro para verificar colisões quando o quadrado atinge as bordas do canva.
 
 - `constructor(ctx, x, y, largura, altura)`: O construtor da classe inicializa o quadrado com o contexto de renderização, coordenadas iniciais, largura e altura.
@@ -22,6 +27,8 @@ A classe `Quadrado` representa o quadrado que é desenhado no canva.<br> Ele pos
 - `checarColisao()`: Verifica se o quadrado colide com as bordas do canva e ajusta sua posição, se necessário.
 
 ### Classe Transformacoes
+
+![image](https://github.com/PedroFRomao/Transformacoes-4BIM/assets/120103357/c4b3f2d3-48c3-4560-aa5c-66881f53c8ed)
 
 A classe `Transformacoes` lida com transformações no canva, como translação, rotação, escala e transformação personalizada.
 
@@ -37,11 +44,12 @@ A classe `Transformacoes` lida com transformações no canva, como translação,
 
 ## Uso
 
-O código também inclui a configuração inicial do canva, a criação de instâncias do quadrado e das transformações, além de um loop de jogo usando `requestAnimationFrame`.<br> O usuário pode interagir com o jogo pressionando as teclas do teclado para mover o quadrado e aplicar as transformações.
+O usuário pode interagir com o jogo pressionando as teclas do teclado para mover o quadrado e aplicar as transformações.
 
 - Teclas de setas (Arrow keys) movem o quadrado.
-- Teclas numéricas (1-4) aplicam diferentes transformações.
-- A tecla "5" cria uma máscara circular.
+- Teclas numéricas (1-5) aplicam diferentes transformações.
+![image](https://github.com/PedroFRomao/Transformacoes-4BIM/assets/120103357/88e3c727-8d66-4121-93f4-fa8ae46a1af9)
+
 
 ## Explicação de cada transformações
 
