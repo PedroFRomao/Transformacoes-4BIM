@@ -63,7 +63,7 @@ class Transformacoes {
         desenhar();
     }
 
-    aplicarClippingPath(x, y) {
+    aplicarClippingPath() {
         ctx.beginPath();
         ctx.arc(quadrado.x, quadrado.y, 230, 0, Math.PI * 2);
         ctx.closePath();
