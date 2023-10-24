@@ -44,10 +44,6 @@ O código também inclui a configuração inicial do canvas, a criação de inst
 
 Para executar este código, você precisa de um arquivo HTML que inclua um elemento `<canvas>` com o ID "canva". Certifique-se de que o JavaScript esteja incluído no arquivo HTML. O código é ativado pelo evento de pressionar as teclas no teclado.
 
-```html
-<canvas id="canva" width="800" height="600"></canvas>
-<script src="seuarquivo.js"></script>
-  
 <h1>Explicação de cada transformações</h1>
 
 <h2>Translação:</h2><br>
