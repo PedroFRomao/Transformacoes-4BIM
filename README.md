@@ -56,16 +56,34 @@ O usuário pode interagir com o jogo pressionando as teclas do teclado para move
 <h2>Translação:</h2><br>
 A translação é uma transformação geométrica que move um objeto de uma posição para outra no espaço, mantendo sua forma e tamanho. Isso é feito aplicando um vetor de deslocamento a todos os pontos do objeto.<br>
 Por exemplo, se você mover um quadrado 3 unidades para a direita e 2 unidades para cima, você está realizando uma translação desse quadrado.
+
+![image](https://github.com/PedroFRomao/Transformacoes-4BIM/assets/120103357/5d3d0660-d682-4bd4-96d9-0c3abc62a596)
+
+
 <h2>Rotação:</h2>
 A rotação é uma transformação que gira um objeto em torno de um ponto de referência. O ponto em torno do qual o objeto gira é chamado de centro de rotação. <br>
 A rotação é medida em graus ou radianos e pode ser no sentido horário ou anti-horário.<br> A rotação é usada para alterar a orientação de um objeto, mas não afeta sua posição no espaço.
+
+![image](https://github.com/PedroFRomao/Transformacoes-4BIM/assets/120103357/46fa6aa4-d600-4877-a2c3-59967947ad20)
+
+
 <h2>Escala:</h2>
 A escala é uma transformação que aumenta ou diminui o tamanho de um objeto sem alterar sua forma. Pode ser aplicada uniformemente (aumentando ou diminuindo proporcionalmente em todas as direções) ou de maneira não uniforme (alterando as dimensões em uma direção específica). <br>
 A escala é expressa como um fator, onde um fator de escala de 1 não altera o tamanho do objeto, um fator maior que 1 aumenta o tamanho e um fator menor que 1 diminui o tamanho do mesmo.
+
+![image](https://github.com/PedroFRomao/Transformacoes-4BIM/assets/120103357/527368dc-6ec3-4966-8d38-6d32a73b73e9)
+
 <h2>Transform (Transformação):</h2>
 A transformação, em um contexto mais amplo, refere-se a qualquer alteração ou manipulação aplicada a um objeto em um sistema gráfico ou de modelagem. Isso pode incluir translação, rotação, escala, ou uma combinação dessas operações. As transformações são frequentemente usadas em computação gráfica e matemática para representar o posicionamento e a orientação de objetos no espaço tridimensional. <br>
 As transformações são representadas por matrizes, o que permite a combinação de várias operações para criar transformações complexas.
+
+![image](https://github.com/PedroFRomao/Transformacoes-4BIM/assets/120103357/d5aa0945-7cd7-4211-8c87-bd9f92d1d63b)
+
+
 <h2>Clipping Path (Caminho de Recorte):</h2>
 Um caminho de recorte é uma técnica utilizada em edição de imagens e design gráfico para isolar parte de uma imagem e ocultar o restante, uma espécie de máscara. <br>
 Isso é útil quando você deseja separar um objeto ou parte de uma imagem de seu fundo ou para aplicar diferentes efeitos apenas a essa parte isolada. Um caminho de recorte é geralmente definido por meio de uma curva ou vetor que descreve a área que você deseja manter, e tudo fora desse caminho é cortado ou mascarado. <br>
 Essa técnica é comumente usada em programas de edição de imagem, como o Adobe Photoshop, para criar recortes precisos de elementos de uma imagem.
+
+![image](https://github.com/PedroFRomao/Transformacoes-4BIM/assets/120103357/2587ecb0-f492-4326-8599-bbe10525af6c)
+
