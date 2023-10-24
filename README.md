@@ -1,5 +1,10 @@
 # Transformacoes-4BIM
 <h1>Feito por: Nickolas Garcia e Pedro Ferraz
+
+## Video
+
+https://drive.google.com/file/d/1RkKDUmoSUDFI5zRytI924DABmC5x9viJ/view?usp=sharing
+
 <h1>Cena</h1>
 Este é um exemplo de código JavaScript que cria um jogo simples usando um quadrado e transformações no elemento canva.<br> O jogo permite que o usuário mova o quadrado e aplique as transformações nele.<br> A nossa cena é bem minimalista com somente um quadro verde, porém todas as transformações são realizadas através do mesmo.<br>
   
@@ -86,4 +91,10 @@ Isso é útil quando você deseja separar um objeto ou parte de uma imagem de se
 Essa técnica é comumente usada em programas de edição de imagem, como o Adobe Photoshop, para criar recortes precisos de elementos de uma imagem.
 
 ![image](https://github.com/PedroFRomao/Transformacoes-4BIM/assets/120103357/2587ecb0-f492-4326-8599-bbe10525af6c)
+
+
+## git
+
+![image](https://github.com/PedroFRomao/Transformacoes-4BIM/assets/120103357/a237aa5b-a44b-4332-b028-eda811beed87)
+
 
